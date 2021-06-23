@@ -1,6 +1,74 @@
-<html>
-  <head></head>
-  <body>
-    <h1>Sample</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Virtusa Task</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/style.css">
+     
+</head>
+<body>
+  <div class="container">
+    <div class="heading">Assignment 1</div>    
+    <div class="col-12">           
+      <div class="row">
+          <div class="col-6">
+            <label for="string1">Input String 1</label>
+            <input type="text" id="string1" placeholder="">
+          </div>
+          <div class="col-6">
+            <label for="string2">Input String 2</label>
+            <input type="text" id="string2" placeholder="">
+          </div>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="row">                 
+        <div class="col-6">
+          <button type="button" id="process" class="btn">Process Output</button>
+        </div>
+      </div>
+    </div>               
+    
+    <div class="col-12">           
+      <div class="row">
+          <div class="col-6">
+            <label for="output1">Output String 1</label>
+            <input type="text" id="output1" placeholder="">
+          </div>
+          <div class="col-6">
+            <label for="output2">Output String 2</label>
+            <input type="text" id="output2" placeholder="">
+          </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="heading">Assignment 2</div>    
+    <div class="col-12">           
+      <div class="row">
+          <div class="col-6">
+            <label for="searchID">Search ID</label>
+            <input type="text" id="searchID" placeholder="">
+          </div>
+
+          <div class="col-6">
+            <button type="button" id="fetchRecords" class="btn">Fetch Records</button>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="col-12">           
+      <div id="listRecords">                
+      </div>
+    </div>
+
+  <script src="js/main.js"></script>
+
+</body>
 </html>

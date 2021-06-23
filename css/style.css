@@ -1,0 +1,52 @@
+.heading {
+	margin: 30px 0 30px 0;
+	background-color: #e6e3e3;
+	font-size: 18px;
+	font-weight: BOLD;
+	padding: 10px 10px;
+}
+
+.col-12{
+	width: 100%;
+	display: inline-block;
+}
+.col-6{
+	width: 30%;
+	display: inline-block;
+}
+
+.row div {
+    float: left;
+    padding: 10px;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+div#listRecords {    
+    padding: 0 25px;
+    font-size: 18px;
+    font-weight: BOLD;
+    color: #7582c5;
+}
+
+.btn {
+    padding: 10px;
+    background: #9999da;
+    color: #FFF;
+    border: 2px;
+    border-radius: 5px;
+}
+
+.btn:hover {    
+    background: #656597;
+    color: #FFF;    
+}
+
+button#fetchRecords {
+    margin-top: 30px;
+}
